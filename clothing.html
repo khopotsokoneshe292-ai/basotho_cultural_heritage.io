@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Basotho Traditional Clothing</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Background */
+    body {
+      background: url("mokorotlo-pattern.png") no-repeat center center fixed;
+      background-size: cover;
+      background-color: rgba(250, 248, 240, 0.96);
+      background-blend-mode: lighten;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #2c2c2c;
+      line-height: 1.6;
+    }
+
+    /* Navigation Bar */
+    nav {
+      background: linear-gradient(90deg, #006400, #003366, #d4a017);
+      padding: 12px;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      padding: 8px 14px;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    nav ul li a:hover,
+    nav ul li a.active {
+      background: #d4a017;
+      color: black;
+    }
+
+    /* Page Title */
+    .page-title {
+      text-align: center;
+      font-size: 2rem;
+      color: #003366;
+      margin-top: 30px;
+    }
+
+    .intro-text {
+      text-align: center;
+      max-width: 900px;
+      margin: 10px auto 30px;
+      font-size: 1.1rem;
+    }
+
+    /* Gallery Grid */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .gallery-item {
+      background: rgba(255, 255, 255, 0.85);
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.15);
+      transition: transform 0.2s ease;
+    }
+
+    .gallery-item:hover {
+      transform: translateY(-5px);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .gallery-item h3, 
+    .gallery-item h2, 
+    .gallery-item h1 {
+      color: #003366;
+      margin: 10px 0;
+    }
+
+    .gallery-item p {
+      font-size: 0.95rem;
+      margin-bottom: 10px;
+    }
+
+    .read-more {
+      display: inline-block;
+      text-decoration: none;
+      background: #006400;
+      color: white;
+      padding: 6px 12px;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    .read-more:hover {
+      background: #d4a017;
+      color: black;
+    }
+
+    /* Footer */
+    footer {
+      background: linear-gradient(90deg, #006400, #003366, #d4a017);
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="clothing.html" class="active">Traditional Clothing</a></li>
+      <li><a href="music.html">Music & Dance</a></li>
+      <li><a href="crafts.html">Crafts & Art</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h1 class="page-title">Basotho Traditional Clothing</h1>
+  <p class="intro-text">Basotho traditional clothing, especially the iconic blanket, represents pride, identity, and cultural heritage. It’s worn in ceremonies and daily life, symbolizing unity and tradition.</p>
+
+  <section class="gallery">
+
+    <!-- Gallery Items -->
+    <div class="gallery-item">
+      <img src="Basotho Heritage Bla.png" alt="Basotho Heritage Blanket">
+      <h3>Basotho Blanket</h3>
+      <p>A cultural symbol of unity and identity in Basotho life.</p>
+      <a href="https://en.wikipedia.org/wiki/Basotho_blanket" target="_blank" class="read-more">Read more</a>
+    </div>
+
+    <div class="gallery-item">
+      <img src="wataka-socks-Basotho_100x.WEBP" alt="Wataka Basotho Socks">
+      <h3>Wataka Socks</h3>
+      <p>Modern socks designed with traditional Basotho patterns.</p>
+      <a href="https://wataka.africa/blogs/stories/wataka-socks-embracing-basotho-heritage-in-contemporary-sock-designs?srsltid=AfmBOoqvxCkyyb6wmAocX6CdnLjE5yh1rfCJ9sbx1nH9_wauD7-GyirO" class="read-more" target="_blank">Read more</a>
+    </div>
+
+    <div class="gallery-item">
+      <img src="Makoti.JPG" alt="Seshoeshoe Makoti Dress">
+      <h3>Seshoeshoe Makoti Dress</h3>
+      <p>A bride’s outfit made from seshoeshoe fabric.</p>
+      <a href="https://www.pinterest.com/pin/29203097580193101/" class="read-more" target="_blank">Read more</a>
+    </div>
+
+    <div class="gallery-item">
+      <img src="Hats.jpg"Alt="Hats.jpg">
+      <h1>Mokorotlo hats</h1>
+      <p>Conical straw hat symbolizing unity and ancestral protection.</p>
+      <a href="https://en.wikipedia.org/wiki/Basotho_blanket"class="read-more" target="_blank">Read more</a>
+    </div>
+
+<div class="gallery-item">
+<img src="dipholoana.jpg"alt="dipholoana.jpg">
+<h2>Dipholoana Beads</h2>
+<p>Necklaces and bangles signifying status and tribe.</p>
+<a href="https://traditionalattire.co.za/lesotho-basotho/"class="read-more" target="_blank">Read more</a>
+ </div>
+
+<div class="gallery-item">
+  <img src="initiation dress.jpg"alt="initiation dress.jpg">
+  <h3>Initiation Dress</h3>
+  <p>Worn during puberty rites, often with symbolic colors</p>
+  <a href="https://lesotho.co.ls/2024/06/popular-lesotho-traditional-attire/"class="read-more" target="_blank">Read more</a>
+ </div>
+
+<div class="gallery-item">
+  <img src="seshoeshoe skirt.jpg"alt="seshoeshoe skirt.jpg">
+  <h1>Seshoeshoe Skirt</h1>
+  <p>Paired with blouse or wrap, often worn by young women.</p>
+  <a href="https://faithspeaksfashion.blogspot.com/2013/"class="read-more" target="_blank">Read more</a>
+ </div>
+
+ <div class="gallery-item">
+  <img src="Sesotho.jpg"alt="Sesotho.jpg">
+  <h2>Traditional Wedding Dress</h2>
+  <p>Elaborate Seshoeshoe gown with beadwork and blanket overlay.</p>
+  <a href="https://www.instagram.com/p/CpuXoGEK7Qs/"class="read-more" target="_blank">Read more</a>
+ </div>
+
+<div class="gallery-item">
+  <img src="beaded shawl.webp"alt="beaded shwal.webp">
+  <h3>Beaded Shawl</h3>
+  <p>This shawl features beadwork inspired by Basotho and Ndebele traditions.It’s handcrafted in South Africa and often worn during ceremonies or cultural showcases.</p>
+  <a href="https://ledikana.com/products/my-africa-shawls"class="read-more" target="_blank">Read more</a>
+ </div>
+
+ <div class="gallery-item">
+  <img src="images.jpeg"alt="images.jpeg">
+  <h1>Kobo ya Monna</h1>
+  <p>Basotho man draped in a ceremonial blanket, often worn over a shirt and trousers.</p>
+  <a href="https://www.instagram.com/p/Ce547xFsbUM/"class="read-more" target="_blank">Read more</a>
+ </div>
+
+  <div class="gallery-item">
+    <img src="footwear.jpg"alt="footwear.jpg">
+    <h3>Lieta tsa Letlalo</h3>
+    <p>Leather sandals made from cowhide.</p>
+    <a href="https://fashiongtonpost.com/lesotho-traditional-clothing/"class="read-more" target="_blank">Read more</a>
+ </div>
+ <div class="gallery-item">
+  <img src="kobo e ntso.webp"alt="kobo e ntso.webp">
+  <h2>Kobo e Ntšo</h2>
+  <p>Often worn during mourning periods or in remembrance ceremonies, the kobo e ntšo is a plain black cloth wrapped around the shoulders</p>
+  <a href="https://fashiongtonpost.com/lesotho-traditional-clothing/"class="read-more" target="_blank">Read more</a>
+ </div>
+
+<div class="gallery-item">
+<img src="seanamarena.jpg"alt="seanamarena.jpg">
+<h2>Seanamarena<h2>
+  <p>Luxury variant gifted at weddings and rites of passage.</p>
+  <a href="https://www.africablanket.co.za/blogs/news/traditional-basotho-dress"class="read-more" target="_blank">Read more</a>
+ </div>
+
+ <div class="gallery-item">
+  <img src="2.png"alt="2.png">
+  <h3>Kobo ya Boroko</h3>
+  <p>Everyday blanket for warmth and modesty.</p>
+  <a href="https://helplesotho.org/traditional-basotho-dress/"class="read-more" target="_blank">Read more</a>
+ </div>
+ <div class="gallery-item">
+  <img src="herding.jpg"alt="herding.jpg">
+  <h3>Traditional Herding Outfit</h3>
+  <p>Practical wear for mountain terrain.</p>
+  <a href="https://www.101lasttribes.com/tribes/basotho.html"class="read-more" target="_blank">Read more</a>
+ </div>
+ 
+ <div class="gallery-item">
+  <img src="images (1).jpeg"alt="images (1).jpeg">
+  <h2>Ceremonial Suit with Blanket</h2>
+  <p>A Mosotho man wearing a tailored suit beneath a Seanamarena blanket, symbolizing dignity and leadership.</p>
+  <a href="https://www.facebook.com/AfricaFactsZone/posts/lesotho-traditional-attires-basotho-blankets/543947234065384/"class="read-more" target="_blank">Read more</a>
+ </div>
+ 
+<div class="gallery-item">
+<img src="initiation attire.webp"alt="initiation attire.webp">
+<h2>Initiation Robe</h2>
+<p>Worn during male coming-of-age ceremonies.</p>
+<a href="https://lesotho.co.ls/2024/06/popular-lesotho-traditional-attire/"class="read-more" target="_blank">Read more</a>
+ </div>
+ <div class="gallery-item">
+  <img src="beaded.png"alt="beaded.png">
+  <h2>Beaded Headband</h2>
+  <p>Decorative band worn by women and dancers.</p>
+  <a href="https://www.instagram.com/p/CeBauDVD1Sc/"class="read-more" target="_blank">Read more</a>
+ </div>
+ 
+ <div class="gallery-item">
+<img src="ceremonal.webp"alt="ceremonal.webp">
+<h2>Ceremonial Feathered Hat</h2>
+<p>Worn by chiefs and elders.</p>
+<a href="https://www.etsy.com/listing/1721269326/new-guinea-feather-headdress-tribal"class="read-more" target="_blank">Read more</a>
+ </div>
+ <div class="gallery-item">
+  <img src="head.jpeg"alt="head.jpeg">
+  <h2>Initiation Headwrap</h2>
+  <p>Symbolic wrap for girls during puberty rites.</p>
+  <a href="https://www.tiktok.com/discover/traditional-sotho-head-wrap"class="read-more" target="_blank">Read more</a>
+ </div>
+<div class="gallery-item">
+  <img src="wedding head.jpg"alt="wedding head.jpg">
+  <h2>Wedding Headwrap</h2>
+  <p>Elegant wrap with beads and embroidery.</p>
+  <a href="https://www.pinterest.com/pin/670332725813232706/"class="read-more" target="_blank">Read more</a>
+</div>
+  
+<div class="gallery-item">
+  <img src="belt.avif"alt="bel.avif">
+  <h2>Leather Belt (Sehloho)</h2>
+  <p>Used to secure blankets and dresses.</p>
+  <a href="https://zulucow.co.uk/product/cowhide-weekend-bag/?srsltid=AfmBOorNZrAfRDWnDbMuaCLJ3IBBxBvnIHLO1B6bRQ5jdd-f-WuO1hyQ"class="read-more" target="_blank">Read more</a></div>
+
+  <div class="gallery-item">
+  <img src="cow.png"alt="cow.png">
+  <h2>Cowhide Bag</h2>
+  <p>Carried during ceremonies or herding.</p>
+  <a href="https://toh-atin.com/concho-belt-silver-stamp-leather-by-nellie-bain-cjcbhcf20-03"class="read-more" target="_blank">Read more</a></div>
+
+  <div class="gallery-item">
+  <img src="anklets.jpg"alt="anklets.jpg">
+  <h2>Beaded Anklets</h2>
+  <p>Beaded loops with dangling strands, worn during initiation and dance</p>
+  <a href="https://hombacrafts.com/product/amanqashela-beaded-anklets/"class="read-more" target="_blank">Read more</a></div>
+
+<div class="gallery-item">
+  <img src="Sotho.webp"alt="Sotho.webp">
+  <h2>Traditional socks</h2>
+  <p>Modern reinterpretation with Basotho motifs.</p>
+  <a href="https://soxfootwear.co.za/products/sotho-socks?srsltid=AfmBOopotCJUfqlPgb7ci95XwRU8tY0BJ8JzFPEB3Be3tx6ZLZwID8Hs&variant=40966301188245#images-1"class="read-more" target="_blank">Read more</a></div>
+
+  
+  <div class="gallery-item">
+  <img src="necklace.jpg"alt="necklace.jpg">
+  <h2>Basotho Necklace</h2>
+  <p>Set of 'Basotho' inspired beaded jewelry worn women in Lesotho featuring intricate patterns and vibrant colors that represent their cultural identity.</p>
+  <a href="https://www.vecteezy.com/photo/55148313-set-of-basotho-inspired-beaded-jewelry-worn-women-in-lesotho-featuring-intricate-patterns-and-vibrant-colors-that-represent-their-cultural-identity"class="read-more" target="_blank">Read more</a></div>
+
+
+ <div class="gallery-item">
+  <img src="Traditional boots.jpg"alt="Traditional boots.jpg">
+  <h2>Traditional boots</h2>
+  <p>A Young black Basotho shepherd, in traditional clothes standing with one hand on his head against a clouded sky..</p>
+  <a href="https://www.stocksy.com/photo/1006332/young-black-basotho-shepherd-in-traditional-clothes"class="read-more" target="_blank">Read more</a></div>
+
+
+<div class="gallery-item">
+  <img src="mokhibo.jpg"alt="mokhibo.jpg">
+  <h2>Basotho Dance Attire</h2>
+  <p>Women kneeling in rhythmic motion, wearing layered skirts, headwraps, and beaded accessories.</p>
+  <a href="https://www.youtube.com/watch?v=JikHRlicUZw"class="read-more" target="_blank">Read more</a></div>
+
+</section>
+</footer>
+</body>
+</html>
